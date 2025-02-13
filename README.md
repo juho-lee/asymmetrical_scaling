@@ -10,7 +10,7 @@ This repository contains the code to reproduce the experiments and figures from 
 This file implements a feedforward neural network (FFNN) with asymmetrical node scaling:
 - `Scaling`: A custom module that scales input activations.
 - `ScaledFCLayer`: A fully connected layer with asymmetrical scaling.
-- `FFNN`: The main neural network model, which stacks multiple scaled layers.
+- `FFNN`: Feedforward neural network which (or without) scaled layers.
 
 ### `sampling_utils.py`
 Provides utilities for sampling different distributions used in the initialization and regularization of the network:
